@@ -3,9 +3,9 @@ import Directory from '../../components/directory/directory.component'
 
 import './homepage.styles.scss'
 
-const HomePage = ()=>(
+const HomePage = ({userData})=>(
   <div className='homepage'>
-    <Directory/>
+    <Directory/> 
   </div>
 )
 
