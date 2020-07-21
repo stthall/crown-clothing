@@ -11,11 +11,19 @@
   right: 40px;
   z-index: 5;
 
+  ::-webkit-scrollbar{
+    background-color:transparent;
+    width:5px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color:black;
+  }
+
   .cart-items {
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow: auto;
   }
 
   button {
